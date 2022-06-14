@@ -48,6 +48,7 @@ variable "function_env_vars" {
   default = {
     # This effectively useless, but an empty map can't be used in the "aws_lambda_function" resource
     # -> this is 100% safe to override with your own env, should you need one
+    # -> this is 100% safe to override with your own env, should you need one
     aws_lambda_api = ""
   }
 }
